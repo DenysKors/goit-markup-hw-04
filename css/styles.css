@@ -271,6 +271,11 @@ img {
 	flex-wrap: wrap;
 }
 
+.team-member {
+	background-color: var(--main-background-color);
+	width: 270px;
+}
+
 .team-member:not(:nth-child(4n)) {
 	margin-right: 30px;
 }
@@ -296,11 +301,17 @@ img {
 	text-align: center;
 	letter-spacing: 0.03em;
 	color: var(--text-color);
+
+	margin-bottom: 16px;
 }
 
-.team-member {
-	background-color: var(--main-background-color);
-	width: 270px;
+.social-list {
+	display: flex;
+	justify-content: center;
+}
+
+.social-link:not(:last-child) {
+	margin-right: 10px;
 }
 
 /* Подвал */

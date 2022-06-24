@@ -345,6 +345,17 @@ img {
 
 	margin-bottom: 50px;
 }
+
+.clients-list {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.client-item {
+	width: 170px;
+	border: 1px solid #afb1b8;
+}
+
 /* Подвал */
 
 .footer {

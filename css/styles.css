@@ -314,6 +314,22 @@ img {
 	margin-right: 10px;
 }
 
+.social-net {
+	display: block;
+	padding: 12px;
+}
+
+/* Секция Постоянные клиенты */
+
+.clients-title {
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 42px;
+	text-align: center;
+	letter-spacing: 0.03em;
+
+	margin-bottom: 50px;
+}
 /* Подвал */
 
 .footer {

@@ -315,8 +315,10 @@ img {
 }
 
 .social-net {
-	display: block;
-	padding: 12px;
+	display: flex;
+
+	justify-content: center;
+	align-items: center;
 
 	width: 44px;
 	height: 44px;
@@ -329,8 +331,9 @@ img {
 	background-color: var(--accent-color);
 }
 
-.social-icon:hover,
-.social-icon:focus {
+.social-net:hover .social-icon,
+.social-net:focus .social-icon {
+	background-color: var(--accent-color);
 	fill: #ffffff;
 }
 

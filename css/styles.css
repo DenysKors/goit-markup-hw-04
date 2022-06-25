@@ -229,6 +229,16 @@ img {
 	margin-right: 30px;
 }
 
+.features-icon {
+	height: 120px;
+
+	background-color: #f5f4fa;
+	border-radius: 4px;
+	margin-bottom: 30px;
+
+	padding: 25px 100px;
+}
+
 .features-title {
 	font-weight: 700;
 	font-size: 14px;

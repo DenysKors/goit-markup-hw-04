@@ -137,13 +137,18 @@ img {
 	padding-bottom: 32px;
 }
 
-.nav-contact-link {
+.nav-contact-icon {
 	margin-right: 10px;
+	fill: var(--text-color);
 }
 
 .nav-contact:hover,
 .nav-contact:focus {
 	color: var(--accent-color);
+}
+
+.nav-contact-icon {
+	fill: currentColor;
 }
 
 .nav-contact:not(:first-child) {

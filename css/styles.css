@@ -371,7 +371,7 @@ img {
 .clients-title {
 	font-weight: 700;
 	font-size: 36px;
-	line-height: 42px;
+	line-height: 1.17;
 	text-align: center;
 	letter-spacing: 0.03em;
 
@@ -422,6 +422,11 @@ img {
 	padding-bottom: 60px;
 }
 
+.footer-info {
+	display: flex;
+	gap: 70px;
+}
+
 .footer-logo {
 	font-family: "Raleway";
 	font-weight: 700;
@@ -431,7 +436,7 @@ img {
 	color: var(--accent-color);
 	text-decoration: none;
 
-	display: block;
+	display: inline-block;
 	margin-bottom: 20px;
 }
 
@@ -465,6 +470,44 @@ img {
 .address-contact:hover,
 .address-contact:focus {
 	color: var(--accent-color);
+}
+
+.media {
+	padding-top: 12px;
+}
+
+.media-title {
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 1.14;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+
+	color: #ffffff;
+
+	margin-bottom: 20px;
+}
+
+.media-list {
+	display: flex;
+	gap: 10px;
+}
+
+.media-link {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	width: 44px;
+	height: 44px;
+	border-radius: 50%;
+
+	background-color: rgba(255, 255, 255, 0.1);
+}
+
+.media-link:hover,
+.media-link:focus {
+	background-color: var(--accent-color);
 }
 
 /* СТРАНИЦА ПОРТФОЛИО */

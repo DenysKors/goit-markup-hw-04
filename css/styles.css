@@ -336,6 +336,11 @@ img {
 	justify-content: center;
 }
 
+.social-link {
+	width: 44px;
+	height: 44px;
+}
+
 .social-link:not(:last-child) {
 	margin-right: 10px;
 }
@@ -346,8 +351,8 @@ img {
 	justify-content: center;
 	align-items: center;
 
-	width: 44px;
-	height: 44px;
+	width: 100%;
+	height: 100%;
 
 	border-radius: 50%;
 }
@@ -392,8 +397,8 @@ img {
 .client-link {
 	display: flex;
 	align-items: center;
-	width: 170px;
-	height: 92px;
+	width: 100%;
+	height: 100%;
 
 	border: 1px solid #afb1b8;
 	border-radius: 4px;
@@ -493,16 +498,25 @@ img {
 	gap: 10px;
 }
 
+.media-item {
+	width: 44px;
+	height: 44px;
+}
+
 .media-link {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 
-	width: 44px;
-	height: 44px;
+	width: 100%;
+	height: 100%;
 	border-radius: 50%;
 
 	background-color: rgba(255, 255, 255, 0.1);
+}
+
+.media-icon {
+	fill: #ffffff;
 }
 
 .media-link:hover,
